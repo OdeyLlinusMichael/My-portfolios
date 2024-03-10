@@ -757,15 +757,15 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px; /* Add margin as needed */
+    margin: 20px; 
 }
 
 .md3 {
-    font-size: 18px; /* Adjust the font size as needed */
-    margin: 5px 50px 5px 5px; /* Add margin: top right bottom left */
-    cursor: pointer; /* Change cursor to pointer */
-    font-weight: 800; /* Increase font weight to 800 */
-    position: relative; /* Set position to relative */
+    font-size: 18px; 
+    margin: 5px 50px 5px 5px; 
+    cursor: pointer; 
+    font-weight: 800; 
+    position: relative; 
 }
 
 .md3::after {
@@ -869,8 +869,8 @@ margin-right: 50px;
 
 
 .porp6000 a {
-    margin: 20px auto; /* Center horizontally with auto margin */
-    display: block; /* Make the anchor element a block-level element */
+    margin: 20px auto; 
+    display: block; 
     font-size: 18px; 
     text-decoration: none;
     line-height: 60px;
@@ -3057,6 +3057,182 @@ margin-right: 50px;
   text-decoration: none;
   text-transform: lowercase;
 }
+
+
+
+
+
+
+
+.popupuie1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  z-index: 20;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.popupuie1.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popupuie2 {
+  background-color: #3A3B3C;
+  width: 1200px;
+  border-radius: 8px;
+  padding: 40px;
+  position: relative;
+}
+
+.popupuie3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.popupuie4 {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.popupuie8,
+.popupuie11 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.popupuie10 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.popupuie12 li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+.popupuie12 li:last-child {
+  margin-bottom: 0;
+}
+
+.popupuie12 li span {
+  font-weight: normal;
+}
+
+.popupuie12 a {
+  color: #ff0000;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+
+
+
+
+
+
+.popupuif1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  z-index: 20;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.popupuif1.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popupuif2 {
+  background-color: #3A3B3C;
+  width: 1200px;
+  border-radius: 8px;
+  padding: 40px;
+  position: relative;
+}
+
+.popupuif3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.popupuif4 {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.popupuif8,
+.popupuif11 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.popupuif10 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.popupuif12 li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+.popupuif12 li:last-child {
+  margin-bottom: 0;
+}
+
+.popupuif12 li span {
+  font-weight: normal;
+}
+
+.popupuif12 a {
+  color: #ff0000;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+
+
+
                                     /* services ￼ 1 */
 
 
@@ -3427,7 +3603,7 @@ html {
   	display: none;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
   
      
      #header{ 
@@ -3472,7 +3648,7 @@ html {
     height: 100vh;
     padding-top: 50px;
     z-index: 92;
-    transition: 0.5s; /* corrected */
+    transition: 0.5s; 
 }
   
   nav ul li{
